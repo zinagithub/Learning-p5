@@ -1,0 +1,15 @@
+open codepen count
+initialize the javascript setting
+add  "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/p5.js" 
+https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.1/addons/p5.dom.js
+save the setting
+try this code in js editor
+
+function setup(){
+  createCanvas(300,200);
+  background(0);
+}
+
+function draw(){
+  ellipse(mouseX,mouseY,16,16);
+}
